@@ -13,14 +13,8 @@
     <url>http://maven.apache.org</url>
     <dependencies>
         <dependency>
-            <groupId>junit</groupId>
-            <artifactId>junit</artifactId>
-        </dependency>
-        <dependency>
             <groupId>javax.servlet</groupId>
-            <artifactId>servlet-api</artifactId>
-            <version>LATEST</version>
-            <scope>compile</scope>
+            <artifactId>javax.servlet-api</artifactId>
         </dependency>
         <!-- spring mvc 支持 -->
         <dependency>
