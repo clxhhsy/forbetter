@@ -16,6 +16,23 @@
             <groupId>javax.servlet</groupId>
             <artifactId>javax.servlet-api</artifactId>
         </dependency>
+
+        <dependency>
+            <groupId>com.forbetter</groupId>
+            <artifactId>forbetter-common</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>com.forbetter</groupId>
+            <artifactId>forbetter-facade-user</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>com.forbetter</groupId>
+            <artifactId>forbetter-config</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>com.forbetter</groupId>
+            <artifactId>forbetter-common-security</artifactId>
+        </dependency>
         <!-- spring mvc 支持 -->
         <dependency>
             <groupId>org.springframework</groupId>
