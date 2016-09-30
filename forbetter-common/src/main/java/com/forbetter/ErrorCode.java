@@ -12,9 +12,11 @@ package com.forbetter;
 
 /**
  * 业务异常代码
+ * Created On 2016年-09月-29日 15:45
  *
  * @author lichen
- * @create 2016年-09月-29日 15:47
+ * @version 1.0
+ *
  */
 public interface ErrorCode
 {

@@ -15,7 +15,7 @@ import com.forbetter.exception.ComponentException;
 
 
 /**
- * 参数验证，验证不通过返回业务异常信息 <br/>
+ * 参数验证，验证不通过返回业务异常信息
  * Created On 2016年-09月-29日 15:45
  * 
  * @author lichen
