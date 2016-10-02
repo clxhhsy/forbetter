@@ -8,5 +8,6 @@
     <context:component-scan base-package="com.forbetter.user.service"/>
 
     <import resource="classpath:spring/app-resource.xml"/>
-
+    <import resource="app-dubbo-provider.xml"/>
+    <import resource="app-jedis.xml"/>
 </beans>

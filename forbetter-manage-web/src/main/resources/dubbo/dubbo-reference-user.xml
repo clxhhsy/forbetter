@@ -4,7 +4,6 @@
        xmlns:dubbo="http://code.alibabatech.com/schema/dubbo"
        xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
        http://code.alibabatech.com/schema/dubbo http://code.alibabatech.com/schema/dubbo/dubbo.xsd">
-    <dubbo:application name="forbetter-manage-web"/>
-    <dubbo:registry address="redis://192.168.0.120:7001" check="false"/>
-    <import resource="dubbo-reference-user.xml"/>
+    <dubbo:reference interface="com.forbetter.user.i.IUserService" check="false" id="userService"/>
+
 </beans>

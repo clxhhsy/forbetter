@@ -10,6 +10,12 @@
  */
 package com.forbetter.controller;
 
+
+import com.forbetter.user.i.IUserService;
+import com.forbetter.user.pojo.SysUser;
+import org.springframework.context.support.ClassPathXmlApplicationContext;
+
+
 /**
  * 用户操作控制器
  * <p>
@@ -18,5 +24,17 @@ package com.forbetter.controller;
  * @author lichen
  * @version 1.0
  */
-public class UserController {
+public class UserController
+{
+    public static void main(String[] args)
+    {
+        ClassPathXmlApplicationContext ctx = new ClassPathXmlApplicationContext(
+            "classpath:spring/app-context.xml");
+        ctx.start();
+        IUserService userService = (IUserService)ctx.getBean("userService");
+        SysUser user = new SysUser();
+        user.setLogin("aaa");
+        user.setPassword("bbb");
+        System.out.println(userService.save(user));
+    }
 }
